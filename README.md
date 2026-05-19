@@ -7,11 +7,12 @@ pip install nuscenes-devkit==1.1.11
 ### Usage
 
 ```bash
-python view.py <radar_file.pcd> [--show-points] [--num-points N]
+python view.py <radar_file.pcd> [--show-points] [--num-points N] [--debug]
 ```
 
 - Shows PCD file header and radar point shape.
 - Use `--show-points` to print the first N points (default N=5, set with `--num-points`).
+- Use `--debug` to print the full exception traceback if a file fails to load.
 
 ### Examples
 
