@@ -1,6 +1,7 @@
 ### Requirements
 
 ```bash
+# linux only ? maybe it does not work on other os
 pip install nuscenes-devkit==1.1.11
 ```
 
